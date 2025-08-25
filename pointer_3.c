@@ -24,7 +24,7 @@ int main()
 
     for (int i = 0; i < 5; i++) // five iterations
     {
-        // promt user to input the number of books
+        // prompt user to input the number of books
         printf("Enter the number of books donates: ");
         scanf("%d", &donated_books);
 
@@ -42,5 +42,5 @@ void updateBooksCount(int donated_books, int *ptotal_books)
 {
     int temp = *ptotal_books; // dereferencing pointer
     temp = temp + donated_books;
-    *ptotal_books = temp; // updating the value stored at location pointed by pointer y
+    *ptotal_books = temp; // updating the value stored at location pointed by pointer ptotal_books
 }
