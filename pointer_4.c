@@ -1,3 +1,10 @@
+/* program to demonstrate the use of pointers to return multiple values from a function,
+   which is not possible with use of a return statement.
+   ----------------------------------------------------
+   In this program, user enters the length of the side of a square and the function
+   gives back the aera and the perimeter of the square without using return statement. 
+*/
+
 #include<stdio.h>
 
 // function prototype
